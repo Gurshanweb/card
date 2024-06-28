@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="circfles.png" alt="">
+            <div class="text">
+                <h2>
+                      Hi This is Gurshan Singh Randhawa
+                </h2>
+                <p>
+                     So this is a template of cards. all we did here is we took a image and give it a property to rotate 360 when hoverd over it and card rotates once you click on the view details 
+                </p>
+         </div>
+         <div class="button">
+           <a href="#">
+            <b>
+                View Details
+            </b>        
+           </a>
+          
+         </div>
+        </div>
+        
+    </div>
+</body>
+</html>
