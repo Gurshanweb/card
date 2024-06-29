@@ -1,0 +1,62 @@
+.conatiner{
+    padding: 0;
+    width: 100vw;
+    height: 120vh;
+    border-radius: 40px;
+    background-color: #7ed6df;
+    background-image: linear-gradient(315deg, #7ed6df 0%, #000000 74%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 40px 60px -6px black;
+    position: relative;
+
+}
+.card h2{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.card img{
+    max-height: 350px;
+    max-width: 250px;
+    object-fit: cover;
+    position: relative;
+}
+.card:hover .about{
+    opacity: 1;
+    height: 100%;
+}
+.about{
+    display: block;
+  font-size: 1rem;
+  position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 18px 8%;
+  background-color: white;
+  overflow-y: scroll;
+  transition: 0.8s ease;
+
+}
